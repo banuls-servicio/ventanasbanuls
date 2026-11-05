@@ -1,4 +1,28 @@
 User-agent: *
 Allow: /
 
+# Explicit AI Answer Engine & LLM Crawlers (AEO / GEO optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap & LLM context
 Sitemap: https://xn--ventanasbauls-rkb.com/sitemap.xml
+# LLMs context file for AI search engines: https://xn--ventanasbauls-rkb.com/llms.txt
