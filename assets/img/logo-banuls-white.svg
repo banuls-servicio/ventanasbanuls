@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="frameGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="glassGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Architectural Window Emblem -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="60" height="60" rx="4" fill="none" stroke="url(#frameGradLight)" stroke-width="4.5"/>
+    <rect x="6" y="6" width="22" height="22" rx="1.5" fill="url(#glassGradLight)"/>
+    <rect x="32" y="6" width="22" height="22" rx="1.5" fill="url(#glassGradLight)"/>
+    <rect x="6" y="32" width="22" height="22" rx="1.5" fill="url(#glassGradLight)"/>
+    <rect x="32" y="32" width="22" height="22" rx="1.5" fill="url(#glassGradLight)"/>
+    <line x1="30" y1="4" x2="30" y2="56" stroke="url(#frameGradLight)" stroke-width="3"/>
+    <line x1="4" y1="30" x2="56" y2="30" stroke="url(#frameGradLight)" stroke-width="3"/>
+    <line x1="12" y1="12" x2="22" y2="22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(86, 24)">
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="4" fill="#94A3B8">VENTANAS &amp; REFORMAS</text>
+    <text x="0" y="38" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" letter-spacing="1.5" fill="#FFFFFF">BAÑULS</text>
+    <text x="135" y="38" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#E2C9A5">ALCOY · +60 AÑOS</text>
+  </g>
+</svg>
