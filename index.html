@@ -359,19 +359,19 @@
 
           <div class="solution-gallery">
             <div class="gallery-item-with-caption">
-              <img src="assets/img/proyectos/demostracion-herraje-strugal.jpg" alt="Demostración oficial de herraje Strugal y doble acristalamiento Climalit instalado por Bañuls" loading="lazy">
+              <img src="assets/img/proyectos/demostracion-herraje-strugal.jpg" alt="Demostración oficial de herraje Strugal y doble acristalamiento Climalit instalado por Bañuls" width="720" height="1280" loading="lazy">
               <div class="item-overlay-badge">Herrajes Strugal &amp; Climalit</div>
             </div>
             <div class="gallery-item-with-caption">
-              <img src="assets/img/proyectos/ventana-oscilobatiente-pvc-banuls.jpg" alt="Ventana de PVC oscilobatiente blanca con vidrio translúcido acústico" loading="lazy">
+              <img src="assets/img/proyectos/ventana-oscilobatiente-pvc-banuls.jpg" alt="Ventana de PVC oscilobatiente blanca con vidrio translúcido acústico" width="1440" height="1919" loading="lazy">
               <div class="item-overlay-badge">PVC Oscilobatiente Blanco</div>
             </div>
             <div class="gallery-item-with-caption">
-              <img src="assets/img/proyectos/ventana-pvc-persiana-monoblock.jpg" alt="Ventana de PVC con persiana monoblock aislada y doble hoja" loading="lazy">
+              <img src="assets/img/proyectos/ventana-pvc-persiana-monoblock.jpg" alt="Ventana de PVC con persiana monoblock aislada y doble hoja" width="1440" height="1800" loading="lazy">
               <div class="item-overlay-badge">Persiana Monoblock Aislada</div>
             </div>
             <div class="gallery-item-with-caption">
-              <img src="assets/img/proyectos/balconera-aluminio-rpt-salon.jpg" alt="Balconera de aluminio con rotura de puente térmico en salón de Alcoy" loading="lazy">
+              <img src="assets/img/proyectos/balconera-aluminio-rpt-salon.jpg" alt="Balconera de aluminio con rotura de puente térmico en salón de Alcoy" width="720" height="720" loading="lazy">
               <div class="item-overlay-badge">Balconera Aluminio RPT</div>
             </div>
           </div>
@@ -518,18 +518,18 @@
           <div class="calculator-grid">
             <div class="calc-inputs">
               <div class="calc-control">
-                <div class="calc-label">
+                <label for="calc-m2" class="calc-label" style="display: flex; justify-content: space-between; cursor: pointer;">
                   <span>Superficie de tu vivienda:</span>
                   <strong id="calc-m2-val" style="color: var(--color-glass-blue);">90 m²</strong>
-                </div>
-                <input type="range" id="calc-m2" class="calc-slider" min="40" max="220" step="5" value="90">
+                </label>
+                <input type="range" id="calc-m2" class="calc-slider" min="40" max="220" step="5" value="90" aria-label="Superficie de la vivienda en metros cuadrados">
               </div>
 
               <div class="calc-control">
-                <div class="calc-label">
+                <label for="calc-window-type" class="calc-label" style="display: block; cursor: pointer;">
                   <span>¿Qué ventanas tienes instaladas actualmente?</span>
-                </div>
-                <select id="calc-window-type" class="form-select">
+                </label>
+                <select id="calc-window-type" class="form-select" aria-label="Tipo de ventana instalada actualmente">
                   <option value="1.3">Aluminio antiguo simple corredero (muy frío, sin rotura)</option>
                   <option value="1.1">Madera antigua con cristal simple</option>
                   <option value="0.85">Aluminio con doble cristal básico sin control solar</option>
@@ -825,7 +825,7 @@
               <!-- CROSS-LEAD CHECKBOX -->
               <div class="form-group" style="background: #F8FAFC; border: 1px dashed #CBD5E1; padding: 0.85rem; border-radius: var(--radius-md);">
                 <label style="display: flex; align-items: flex-start; gap: 0.6rem; font-size: 0.875rem; cursor: pointer; color: #334155;">
-                  <input type="checkbox" id="quote-cross-reform" style="margin-top: 3px; accent-color: var(--color-glass-blue);">
+                  <input type="checkbox" id="quote-cross-reform" style="margin-top: 3px; accent-color: var(--color-glass-blue);" aria-label="Incluir asesoramiento conjunto de reformas de baño, cocina o vivienda completa">
                   <span>¿Tu proyecto incluye también reforma de baño, cocina o vivienda completa? (Te asesorará conjuntamente nuestro estudio <strong>Reformas Bañuls</strong>).</span>
                 </label>
               </div>
