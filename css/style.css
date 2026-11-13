@@ -69,6 +69,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id], div[id] {
+  scroll-margin-top: 90px;
+}
+
 body {
   overflow-x: hidden;
   min-height: 100vh;
@@ -822,6 +826,19 @@ p {
 
 .real-showcase-trust .trust-item svg {
   color: #10B981;
+}
+
+.real-showcase-cta-bar .btn-secondary {
+  background-color: #FFFFFF;
+  color: #0F172A;
+  border-color: #CBD5E1;
+  font-weight: 700;
+}
+
+.real-showcase-cta-bar .btn-secondary:hover {
+  background-color: #F8FAFC;
+  border-color: #94A3B8;
+  color: #0F172A;
 }
 
 @media (max-width: 768px) {
